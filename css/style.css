@@ -139,8 +139,9 @@ a {
     margin-bottom:20px;
 }
 
-.skills h3 {
+.skills p {
     margin-bottom:5px;
+	font-size: 18px;
 }
 
 .skillsList{
