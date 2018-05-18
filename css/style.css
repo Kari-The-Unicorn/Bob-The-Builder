@@ -4,18 +4,22 @@
     margin: 0 auto;
     padding: 0;
 }
+
 body {
     padding-top: 50px;
     font-size: 14px;
     font-family: 'Raleway', Georgia, sans-serif;
 }
-.lang-switcher{
+
+.lang-switcher {
     width: 100%;
     padding-left: 82%;
 }
+
 .column {
     float: left;
 }
+
 .clearfix::after {
     content: '';
     display: block;
@@ -27,36 +31,33 @@ h1 span {
     color: maroon;
 }
 
-@media (min-width: 769px){
+@media (min-width: 769px) {
     h1 {
-    font-size: 14px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 6px;
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+    }
+    header {
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        padding: 5px 0 5px 0;
+    }
+    header li {
+        display: inline-block;
+        margin-left: 40px;
+        margin-bottom: 3px;
+    }
 }
 
-header {
-    background-color: black;
-    color: white;
-    font-size: 12px;
-    padding: 5px 0 5px 0;
-}
-
-header li {
-    display: inline-block;
-    margin-left: 40px;
-    margin-bottom: 3px;
-}
-}
-
-@media (max-width: 768px) and (min-width: 530px){
+@media (max-width: 768px) and (min-width: 530px) {
     h1 {
-    font-size: 14px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-}
-
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+    }
     header {
         background-color: black;
         color: white;
@@ -64,21 +65,19 @@ header li {
         font-size: 12px;
         padding: 5px 0 5px 0;
     }
-
     header li {
-    margin-bottom: 3px;
-    list-style-type: none;
-}
+        margin-bottom: 3px;
+        list-style-type: none;
+    }
 }
 
-@media (max-width: 529px){
+@media (max-width: 529px) {
     h1 {
-    font-size: 14px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
     header {
         background-color: black;
         color: white;
@@ -86,13 +85,11 @@ header li {
         font-size: 10px;
         padding: 5px 0 5px 0;
     }
-
     header li {
-    margin-bottom: 3px;
-    list-style-type: none;
+        margin-bottom: 3px;
+        list-style-type: none;
+    }
 }
-}
-
 
 header nav.column {
     float: right;
@@ -102,28 +99,30 @@ header a {
     text-transform: uppercase;
     color: white;
 }
+
 a {
-    color:black;
+    color: black;
     text-decoration: none;
 }
+
 #pageTop {
     margin-top: 15px;
 }
 
 .myFront {
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .myFront h1 {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .myFront p {
     letter-spacing: 1px;
 }
 
-.about{
-    margin-bottom:20px;
+.about {
+    margin-bottom: 20px;
 }
 
 .about p {
@@ -132,22 +131,23 @@ a {
 }
 
 .skills {
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .skills h2 {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .skills p {
-    margin-bottom:5px;
-	font-size: 18px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
-.skillsList{
+.skillsList {
     list-style-type: none;
 }
-.innerListClass{
+
+.innerListClass {
     list-style-type: circle;
     padding: 10px;
     font-weight: 200;
@@ -159,12 +159,12 @@ a {
 }
 
 .container1 {
-    width: 100%
-    font-size: 14px;
+    width: 100% font-size: 14px;
     margin-left: 90px;
     margin-right: 98px;
 }
-.inwestBox{
+
+.inwestBox {
     background-color: #DCDCDC;
     border-left: 8px solid grey;
     padding: 5px;
@@ -172,7 +172,8 @@ a {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.inwestBox ul{
+
+.inwestBox ul {
     list-style: none;
     padding-left: 10px;
     padding-bottom: 15px;
@@ -180,10 +181,12 @@ a {
     letter-spacing: 1px;
     font-weight: 200;
 }
+
 .big {
-    height:200px;
-    margin-bottom:40px;
+    height: 200px;
+    margin-bottom: 40px;
 }
+
 #ltg {
     background-image: url(../images/back1.jpg);
     background-size: cover;
@@ -192,6 +195,7 @@ a {
     margin-left: 95px;
     margin-right: 95px;
 }
+
 .contact1 {
     background-image: url(../images/foot2a.jpg);
     background-size: cover;
@@ -202,17 +206,19 @@ a {
     margin-right: 95px;
     margin-bottom: 30px;
 }
+
 .contact1 h2 {
     color: black;
     text-align: center;
 }
-.contact1 a{
+
+.contact1 a {
     background: transparent;
     box-sizing: border-box;
     margin-bottom: 30px;
-    
 }
-.contact1 span{
+
+.contact1 span {
     background: transparent;
     box-sizing: border-box;
     margin-bottom: 30px;
